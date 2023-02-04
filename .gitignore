@@ -3,4 +3,3 @@ package-lock.json
 .cache/
 .vscode/
 dist/
-.htmlnanorc.js
