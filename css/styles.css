@@ -26,7 +26,8 @@ body {
   font-size: 2.4rem;
   line-height: 1.5;
   color: var(--color-body);
-  padding: 1rem 1rem;
+  /* This was a testing rule.  
+  padding: 1rem 1rem; */
 }
 
 h1,
@@ -136,7 +137,6 @@ a {
 .list {
   list-style: none;
   padding-left: 0;
-  color: var(--color-headings);
 }
 
 .list--inline .list__item {
@@ -202,7 +202,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   transition: background 0.5s, color 0.5s;
@@ -292,6 +292,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 3rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -743,13 +744,14 @@ a {
 
 .block-domain__prices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
   max-width: 700px;
   margin: 0 auto;
+  color: var(--color-headings);
 }
 
 @media screen and (min-width: 769px) {
